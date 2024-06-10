@@ -11,7 +11,7 @@ from prime_generator import PrimeGenerator
 
 app = FastAPI()
 
-# Configure CORS (optional)
+# Configuring CORS 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
